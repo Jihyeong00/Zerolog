@@ -1,4 +1,4 @@
 #!/usr/bin/env sh
 . "$(dirname -- "$0")/_/husky.sh"
 
-npm run formatter & npm lint:fix
+npm run formatter && npm run lint:fix
