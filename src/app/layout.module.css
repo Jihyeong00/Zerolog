@@ -1,3 +1,5 @@
 .layout {
-    min-height: calc(100vh - 74px);
+    min-height: calc(100vh - 5rem);
+    margin: 1rem auto 0;
+    width: 1200px;
 }
