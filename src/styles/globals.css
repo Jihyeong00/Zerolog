@@ -50,8 +50,10 @@
     --black-1: #000000;
     --black-2: #0a0a0a;
 
-    --title-font-color : #FFFFFF;
-    --title-sub-font-color : #E9E7DF;
+    --blue-1: #3291FF;
+
+    --title-font-color: #FFFFFF;
+    --title-sub-font-color: #E9E7DF;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -117,4 +119,12 @@ a {
     html {
         color-scheme: dark;
     }
+}
+
+input:-webkit-autofill, input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    -webkit-box-shadow: 0 0 0 1000px var(--gray-6) inset;
+    box-shadow: 0 0 0 1000px var(--gray-6) inset;
+    -webkit-text-fill-color: white;
 }

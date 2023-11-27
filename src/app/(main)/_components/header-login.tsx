@@ -12,12 +12,12 @@ export default function LoginButton() {
         <HeaderButton>Logout</HeaderButton>
       ) : (
         <div className={style.header_auth_buttons}>
-          <HeaderButton>
-            <Link href={PATH.login}>로그인</Link>
-          </HeaderButton>
-          <HeaderButton>
-            <Link href={PATH.signup}>회원가입</Link>
-          </HeaderButton>
+          <Link href={PATH.login}>
+            <HeaderButton>Login</HeaderButton>
+          </Link>
+          <Link href={PATH.signup}>
+            <HeaderButton>SignUp</HeaderButton>
+          </Link>
         </div>
       )}
     </div>

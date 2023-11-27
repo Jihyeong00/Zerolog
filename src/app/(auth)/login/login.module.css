@@ -1,0 +1,17 @@
+.slide {
+    position: absolute;
+    display: flex;
+    gap: 1rem;
+    flex-direction: row;
+    transition: 1s;
+}
+
+.localLogin{
+    transform: translateX(calc(-366px - 1rem));
+}
+
+.loginForm{
+    position: relative;
+    height: 300px;
+    overflow: hidden;
+}

@@ -1,11 +1,12 @@
 
 .header {
     display: flex;
-    background: var(--gray-6);
+    background: var(--black-1);
     height: 4rem;
     justify-content: space-between;
     padding: 1.25rem 2.5rem;
     align-items: center;
+    border-bottom: 1px solid var(--gray-2);
 }
 
 .logo {
@@ -46,13 +47,13 @@
 .header_auth_button {
     border-radius: 0.625rem;
     padding: 0.625rem 1rem;
-    background: var(--gray-6);
+    background: var(--black-1);
     font-weight: 600;
     transition: 0.5s;
 }
 
 .header_auth_button:hover {
-    background: var(--gray-7);
+    background: var(--black-2);
     color: var(--title-sub-font-color);
 }
 

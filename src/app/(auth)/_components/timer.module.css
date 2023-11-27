@@ -1,0 +1,9 @@
+.timerCount {
+    font-size: 0.75rem;
+    color: var(--blue-1);
+}
+
+.timeOutClose {
+    font-weight: bold;
+    color: darkred !important;
+}

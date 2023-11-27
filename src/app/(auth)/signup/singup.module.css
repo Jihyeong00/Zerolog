@@ -1,0 +1,54 @@
+.formStyle {
+    width: 366px;
+    padding: 1.5rem 0;
+    display: flex;
+    gap: 0.725rem;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 17rem;
+}
+
+.emailConfirm {
+    position: relative;
+    display: grid;
+    grid-template-columns: 5fr 1fr;
+    align-items: end;
+    grid-gap: 10px;
+}
+
+.confirmButton {
+    height: 37px;
+    border-radius: 8px;
+    background: var(--gray-5);
+    transition: 1s;
+}
+
+.confirmButton:hover {
+    background: var(--gray-6);
+}
+
+.confirmEmailTime {
+    position: absolute;
+    top: 0;
+    right: 10px;
+}
+
+.emailConfirmInput {
+    outline: none;
+    background: var(--gray-6);
+    border: 1px solid transparent;
+    border-radius: 0.75rem;
+    width: 100%;
+    padding: 10px;
+    transition: 0.5s;
+}
+
+.emailConfirmInput:invalid{
+    background: var(--gray-2);
+}
+
+
+.emailConfirmInput:focus {
+    border: 1px solid var(--gray-4);
+    margin: 0;
+}

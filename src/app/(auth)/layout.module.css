@@ -1,0 +1,7 @@
+.auth_layout {
+    width: 25rem;
+    margin: -8rem auto 0;
+    padding: 1rem;
+    border: 1px solid var(--gray-2);
+    border-radius: 0.75rem;
+}

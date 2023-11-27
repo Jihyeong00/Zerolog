@@ -1,5 +1,6 @@
 export type PathType = keyof typeof PATH
 export type HeaderPath = Exclude<PathType, 'login' | 'signup'>
+export type SocialType = 'google' | 'kakao' | 'naver'
 
 export const HEADER_PATH: HeaderPath[] = [
   'home',

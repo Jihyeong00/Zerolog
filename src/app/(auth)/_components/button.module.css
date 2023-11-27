@@ -1,0 +1,10 @@
+.button {
+    margin-top: 1rem;
+    outline: none;
+    background: var(--gray-6);
+    border: 1px solid transparent;
+    border-radius: 0.75rem;
+    width: 100%;
+    padding: 10px;
+    transition: 0.5s;
+}
