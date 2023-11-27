@@ -7,11 +7,11 @@
 }
 
 .localLogin{
-    transform: translateX(calc(-366px - 1rem));
+    transform: translateX(calc(-22.875rem - 1rem));
 }
 
 .loginForm{
     position: relative;
-    height: 300px;
+    height: 18.75rem;
     overflow: hidden;
 }
