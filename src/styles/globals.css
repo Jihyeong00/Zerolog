@@ -54,6 +54,8 @@
 
     --title-font-color: #FFFFFF;
     --title-sub-font-color: #E9E7DF;
+
+    --border-1: hsla(0,0%,100%,.14)
 }
 
 @media (prefers-color-scheme: dark) {

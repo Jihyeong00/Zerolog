@@ -6,7 +6,6 @@
     justify-content: space-between;
     padding: 1.25rem 2.5rem;
     align-items: center;
-    border-bottom: 1px solid var(--gray-2);
 }
 
 .logo {
@@ -27,16 +26,16 @@
 }
 
 .link_button {
-    color: var(--title-font-color);
+    color: var(--gray-3);
     transition: 0.5s;
 }
 
 .link_button_select {
-    color: var(--gray-2);
+    color: var(--gray-1);
 }
 
 .link_button:hover {
-    color: var(--gray-2);
+    color: var(--gray-1);
 }
 
 .header_auth_buttons {
@@ -53,7 +52,7 @@
 }
 
 .header_auth_button:hover {
-    background: var(--black-2);
+    background: var(--black-1);
     color: var(--title-sub-font-color);
 }
 

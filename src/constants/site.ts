@@ -1,5 +1,10 @@
-const SITE_MARK_UP = {
-  LOGO_TITLE: 'ZeroLog',
+const markUp = {
+  name: 'Zero',
+  logo: `ZeroLog`,
 }
 
-export default SITE_MARK_UP
+const SITE = {
+  markUp,
+}
+
+export default SITE
