@@ -18,4 +18,5 @@ export interface ITag {
   idx: string
   name: string
   color: string
+  bgColor: string
 }

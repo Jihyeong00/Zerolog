@@ -1,11 +1,13 @@
 
 .header {
+    position: fixed;
+    width: 100%;
     display: flex;
     background: var(--black-1);
     height: 4rem;
+    align-items: flex-end;
     justify-content: space-between;
     padding: 1.25rem 2.5rem;
-    align-items: center;
 }
 
 .logo {
@@ -45,7 +47,6 @@
 
 .header_auth_button {
     border-radius: 0.625rem;
-    padding: 0.625rem 1rem;
     background: var(--black-1);
     font-weight: 600;
     transition: 0.5s;
