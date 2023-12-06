@@ -6,7 +6,7 @@ export interface IUserData {
 }
 
 export interface IProjectData {
-  idx: string
+  idx: number
   title: string
   url: string
   comment: string
@@ -15,8 +15,19 @@ export interface IProjectData {
 }
 
 export interface ITag {
-  idx: string
+  idx: number
   name: string
   color: string
   bgColor: string
+}
+
+export interface IPostData {
+  idx: number
+  title: string
+  url: string
+  previewComment: string
+  createdAt: string
+  updatedAt: string
+  replyCount: number
+  likeCount: number
 }

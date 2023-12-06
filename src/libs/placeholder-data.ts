@@ -1,4 +1,4 @@
-import { IProjectData, IUserData } from '@/types/api.type'
+import { IPostData, IProjectData, IUserData } from '@/types/api.type'
 
 const user: IUserData[] = [
   {
@@ -11,7 +11,7 @@ const user: IUserData[] = [
 
 const projects: IProjectData[] = [
   {
-    idx: '1',
+    idx: 1,
     title: 'CloneTube',
     url: '/project/cloneTube.png',
     comment:
@@ -19,7 +19,7 @@ const projects: IProjectData[] = [
     date: '2022-05-17',
     tags: [
       {
-        idx: '1',
+        idx: 1,
         name: 'react',
         color: '#000000',
         bgColor: '#00d8ff',
@@ -27,7 +27,7 @@ const projects: IProjectData[] = [
     ],
   },
   {
-    idx: '2',
+    idx: 2,
     title: 'AIF',
     url: '/project/Issue_finder.png',
     comment:
@@ -35,19 +35,19 @@ const projects: IProjectData[] = [
     date: '2022-05-17',
     tags: [
       {
-        idx: '1',
+        idx: 1,
         name: 'react',
         color: '#000000',
         bgColor: '#00d8ff',
       },
       {
-        idx: '3',
+        idx: 3,
         name: 'notion',
         color: '#000000',
         bgColor: '#ffffff',
       },
       {
-        idx: '4',
+        idx: 4,
         name: 'figma',
         color: '#000000',
         bgColor: '#0d99ff',
@@ -55,7 +55,7 @@ const projects: IProjectData[] = [
     ],
   },
   {
-    idx: '3',
+    idx: 3,
     title: 'Movie Trailer',
     url: '/project/movie_trailer.png',
     comment:
@@ -63,19 +63,19 @@ const projects: IProjectData[] = [
     date: '2022-05-17',
     tags: [
       {
-        idx: '1',
+        idx: 1,
         name: 'react',
         color: '#000000',
         bgColor: '#00d8ff',
       },
       {
-        idx: '3',
+        idx: 3,
         name: 'notion',
         color: '#000000',
         bgColor: '#ffffff',
       },
       {
-        idx: '4',
+        idx: 4,
         name: 'figma',
         color: '#0d99ff',
         bgColor: '#ffffff',
@@ -83,7 +83,7 @@ const projects: IProjectData[] = [
     ],
   },
   {
-    idx: '4',
+    idx: 4,
     title: 'Paradise',
     url: '/project/paradise.png',
     comment:
@@ -91,19 +91,19 @@ const projects: IProjectData[] = [
     date: '2023-08-15',
     tags: [
       {
-        idx: '1',
+        idx: 1,
         name: 'react',
         color: '#000000',
         bgColor: '#00d8ff',
       },
       {
-        idx: '3',
+        idx: 3,
         name: 'notion',
         color: '#000000',
         bgColor: '#ffffff',
       },
       {
-        idx: '4',
+        idx: 4,
         name: 'figma',
         color: '#0d99ff',
         bgColor: '#ffffff',
@@ -111,7 +111,7 @@ const projects: IProjectData[] = [
     ],
   },
   {
-    idx: '5',
+    idx: 5,
     title: 'Kkiri',
     url: '/project/kkiri.png',
     comment:
@@ -119,37 +119,37 @@ const projects: IProjectData[] = [
     date: '2023-11-30',
     tags: [
       {
-        idx: '1',
+        idx: 1,
         name: 'react',
         color: '#000000',
         bgColor: '#00d8ff',
       },
       {
-        idx: '2',
+        idx: 2,
         name: 'typescript',
         color: '#ffffff',
         bgColor: '#3178c6',
       },
       {
-        idx: '3',
+        idx: 3,
         name: 'notion',
         color: '#000000',
         bgColor: '#ffffff',
       },
       {
-        idx: '4',
+        idx: 4,
         name: 'figma',
         color: '#0d99ff',
         bgColor: '#ffffff',
       },
       {
-        idx: '5',
+        idx: 5,
         name: 'spring boot',
         color: '#ffffff',
         bgColor: '#6db33f',
       },
       {
-        idx: '5',
+        idx: 6,
         name: 'spring security',
         color: '#ffffff',
         bgColor: '#6db33f',
@@ -158,9 +158,46 @@ const projects: IProjectData[] = [
   },
 ]
 
+const posts: IPostData[] = [
+  {
+    idx: 3,
+    title: '[Next] Next-JS의 파일 컨벤션',
+    createdAt: '2023-11-15T23:44:57.000Z',
+    updatedAt: '2023-11-24T23:59:58.000Z',
+    url: '/post/blog_post_url_3.png',
+    previewComment:
+      '웹 프레임워크인 Next.js의 파일 컨벤션을 이해하고 Next.js 파일들을 만들어 효율적인 설계를 하기 위한 정리글입니다.',
+    likeCount: 4,
+    replyCount: 5,
+  },
+  {
+    idx: 2,
+    title: '[Jira] 이슈 트래킹 시스템을 활용한 프로젝트 만들기',
+    createdAt: '2023-09-15T20:26:56.000Z',
+    updatedAt: '2023-09-15T20:26:56.000Z',
+    url: '/post/blog_post_url_2.png',
+    previewComment:
+      '새로운 프론트앤드 스터디 팀을 구성하게 되면서 지금까지 했던 스터디와 프로젝트를 돌아보면 협업이 적극적으로 이루어지지 않은 느낌이 있었습니다. 이에 이슈 트래킹 시스템과 스크럼 프레임워크를 도입하여 더 나은 프로젝트를 만기 위해 해당 포스트를 작성합니다.',
+    replyCount: 3,
+    likeCount: 4,
+  },
+  {
+    idx: 1,
+    title: '[Git] GitHub Project, Issues 활용하기',
+    createdAt: '2023-08-18T12:26:56.000Z',
+    updatedAt: '2023-08-19T12:26:56.000Z',
+    url: '/post/blog_post_url_1.png',
+    previewComment:
+      '이번 글에서는 GitHub에서 제공하지만 잘 사용해보지 않았던 Project와 Issues에 대해서 공부를 하고 사용하는 방법들을 정리하고 정의해봅니다.',
+    likeCount: 6,
+    replyCount: 8,
+  },
+]
+
 const MOCK = {
   user,
   projects,
+  posts,
 }
 
 export default MOCK
