@@ -1,0 +1,22 @@
+.tooltipBox {
+  position: relative;
+
+  &:hover {
+    .tooltipTitle {
+      opacity: 1;
+    }
+  }
+}
+
+.tooltipTitle {
+  transition: 0.2s;
+  font-size: 0.75rem;
+  opacity: 0;
+  background: #5F5F5F;
+  border-radius: 0.5rem;
+  padding: 0.25rem;
+  left: 50%;
+  top: -15px;
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
