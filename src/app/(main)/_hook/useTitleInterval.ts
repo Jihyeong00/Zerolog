@@ -8,7 +8,7 @@ export default function useTextInterval(texts: string[], time: number) {
 
   // 텍스트 삭제 함수
   const deleteTyping = useCallback(
-    (prevTitle) => {
+    (prevTitle:string) => {
       // 이전 타이틀이 비어있는 경우, 다음 텍스트로 전환
       if (prevTitle === '') {
         titleIndex.current =
@@ -24,7 +24,7 @@ export default function useTextInterval(texts: string[], time: number) {
 
   // 텍스트 추가 함수
   const addTyping = useCallback(
-    (prevTitle) => {
+    (prevTitle:string) => {
       // 새로운 타이틀 생성
       const newTitle = prevTitle
         ? prevTitle + texts[titleIndex.current][currentIndex.current]
