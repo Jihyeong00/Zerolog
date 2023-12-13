@@ -1,7 +1,7 @@
 'use client'
 
 import { useEffect, useState } from 'react'
-import style from './timer.module.css'
+import style from './timer.module.scss'
 
 type PropsType = {
   second: number

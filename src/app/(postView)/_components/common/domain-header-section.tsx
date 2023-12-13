@@ -1,4 +1,4 @@
-import style from './domain-header-section.module.css'
+import style from './domain-header-section.module.scss'
 import font from '@/styles/font'
 
 type PropsType = {

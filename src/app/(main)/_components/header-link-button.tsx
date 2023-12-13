@@ -2,18 +2,18 @@
 
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
-import style from './header.module.css'
-import { HeaderPath, PATH } from '@/constants/path'
+import style from './header.module.scss'
+import { HeaderPath, path } from '@/constants/path'
 
 export default function HeaderLinkButton({ url }: { url: HeaderPath }) {
   const pathName = usePathname()
   return (
     <Link
       className={
-        pathName === PATH[url] ? style.link_button_select : style.link_button
+        pathName === path[url] ? style.link_button_select : style.link_button
       }
       key={url}
-      href={PATH[url]}
+      href={path[url]}
       replace
     >
       {url}

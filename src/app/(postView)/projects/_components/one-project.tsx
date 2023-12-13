@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import Image from 'next/image'
 import { IProjectData } from '@/types/api.type'
-import style from './one-project.module.css'
+import style from './one-project.module.scss'
 import font from '@/styles/font'
 import Tag from '@/app/_components/tag'
 

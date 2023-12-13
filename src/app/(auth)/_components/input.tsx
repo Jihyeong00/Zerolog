@@ -1,5 +1,5 @@
 import { ChangeEventHandler, HTMLInputTypeAttribute } from 'react'
-import style from './input.module.css'
+import style from './input.module.scss'
 
 type PropsType = {
   label: string

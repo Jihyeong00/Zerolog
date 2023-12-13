@@ -3,7 +3,7 @@
 import { FormEvent, useState } from 'react'
 
 import Input from '@/app/(auth)/_components/input'
-import style from './singup.module.css'
+import style from './singup.module.scss'
 import Timer from '@/app/(auth)/_components/timer'
 import Button from '@/app/(auth)/_components/button'
 

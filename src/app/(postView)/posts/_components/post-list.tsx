@@ -1,5 +1,5 @@
 import MOCK from '@/libs/placeholder-data'
-import style from './post-list.module.css'
+import style from './post-list.module.scss'
 import OnePost from '@/app/(postView)/posts/_components/one-post'
 
 export default function PostList() {

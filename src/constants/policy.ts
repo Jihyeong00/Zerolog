@@ -1,9 +1,15 @@
-import SITE from '@/constants/site'
+import { markUp } from '@/constants/site'
 
-const domainInfo = {
+export const mainTitle = [
+  '저는 빠른 변화에 쉽게 적응하는 예비 개발자입니다.',
+  '저는 새로운 것을 배우는 것을 좋아하는 예비 개발자입니다.',
+  '저는 책임감이 강하고 의사소통을 좋아하는 예비 개발자입니다.',
+]
+
+export const domainInfo = {
   diary: {
     domain: 'Diary',
-    description: `${SITE.markUp.name}의 일기 페이지입니다.`,
+    description: `${markUp.name}의 일기 페이지입니다.`,
   },
   projects: {
     domain: 'Projects',
@@ -15,12 +21,6 @@ const domainInfo = {
   },
   issues: {
     domain: 'Issues',
-    description: `${SITE.markUp.name}에게 질문을 할 수 있는 공간입니다.`,
+    description: `${markUp.name}에게 질문을 할 수 있는 공간입니다.`,
   },
 }
-
-const POLICY = {
-  domainInfo,
-}
-
-export default POLICY

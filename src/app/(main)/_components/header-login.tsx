@@ -1,8 +1,8 @@
 import { cookies } from 'next/headers'
 import Link from 'next/link'
 import HeaderButton from '@/app/(main)/_components/header-button'
-import { PATH } from '@/constants/path'
-import style from './header.module.css'
+import style from './header.module.scss'
+import { path } from '@/constants/path'
 
 export default function LoginButton() {
   const isLogin = cookies().get('accessToken') ?? false
@@ -12,10 +12,10 @@ export default function LoginButton() {
         <HeaderButton>Logout</HeaderButton>
       ) : (
         <div className={style.header_auth_buttons}>
-          <Link href={PATH.login}>
+          <Link href={path.login}>
             <HeaderButton>Login</HeaderButton>
           </Link>
-          <Link href={PATH.signup}>
+          <Link href={path.signup}>
             <HeaderButton>SignUp</HeaderButton>
           </Link>
         </div>
