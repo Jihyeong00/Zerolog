@@ -3,7 +3,7 @@ import Image from 'next/image'
 import { BiSolidComment } from 'react-icons/bi'
 import { GoHeartFill } from 'react-icons/go'
 import font from '@/styles/font'
-import style from './one-post.module.css'
+import style from './one-post.module.scss'
 import { IPostData } from '@/types/api.type'
 
 type PropsType = {

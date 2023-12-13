@@ -3,7 +3,7 @@
 import { useState } from 'react'
 import LoginSocialForm from '@/app/(auth)/_components/login-social-form'
 import LoginLocalForm from '@/app/(auth)/_components/login-local-form'
-import style from './login.module.css'
+import style from './login.module.scss'
 
 export default function Page() {
   const [isSocalLogin, setIsLocalLogin] = useState(true)

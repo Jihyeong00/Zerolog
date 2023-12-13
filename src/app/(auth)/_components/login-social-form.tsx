@@ -1,4 +1,4 @@
-import style from '@/app/(auth)/_components/login.module.css'
+import style from '@/app/(auth)/_components/login.module.scss'
 import GoogleLoginButton from '@/assets/svg/social/google-login-button'
 import NaverLoginButton from '@/assets/svg/social/naver-login-button'
 import KakaoLoginButton from '@/assets/svg/social/kakao-login-button'

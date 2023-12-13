@@ -1,0 +1,58 @@
+.main {
+    width: 800px;
+    display: flex;
+    gap: 2rem;
+    margin: 100px auto 0;
+}
+
+.imgBox {
+    object-fit: cover;
+    overflow: hidden;
+    border-radius: 4px;
+}
+
+.myName {
+    font-weight: bold;
+    font-size: 28px;
+}
+
+.userBox {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    justify-content: space-between;
+}
+
+@keyframes blink {
+    0% {
+        border-right-color: #5F5F5F;
+    }
+    50% {
+        border-right-color: transparent;
+    }
+    100% {
+        border-right-color: #5F5F5F;
+    }
+}
+.linkInfo{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.linkButtons {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.typingBox {
+    display: inline;
+    border-right: 1px solid #5F5F5F;
+    animation: blink 1s step-end infinite;
+    padding-right: 5px;
+}
+
+.copyLinkButton {
+    cursor: pointer;
+}

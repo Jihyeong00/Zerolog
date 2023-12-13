@@ -1,5 +1,5 @@
 import MOCK from '@/libs/placeholder-data'
-import style from './project-list.module.css'
+import style from './project-list.module.scss'
 import OneProject from '@/app/(postView)/projects/_components/one-project'
 
 export default function ProjectList() {
